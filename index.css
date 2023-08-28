@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto+Slab:wght@100;200;300;400&family=Ysabeau+Infant:wght@300;400;500;600;700&display=swap');
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ysabeau Infant', sans-serif !important;
+}
+.navv1:hover{
+    color: rgba(5, 176, 5, 0.596) !important;
+}
+
+
+body::before{
+    content: '';
+    display: block;
+    height: 80px;
+}
+a{
+    text-decoration: none !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.sec1{
+    background-color: #3c1563;
+}
+.mo{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    
+    
+}
+
+
+
+.pp {
+    font-size: larger;
+}
+
+.secc {
+    background-color: #5fb8a6;
+
+}
+
+.fff {
+    background-color: #301057;
+}
+
+.dd {
+    background-color: #facb48;
+}
+
+.cll {
+    background-color: #892faa;
+}
+
+.cl {
+    background-color: #d39ee67c;
+
+}
+
+.c-l {
+    background-color: #d1dfedbe;
+}
+
+
+.font-hab {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.pant {
+    background-color: #fcecc0;
+    border-radius: 20px;
+
+}
+
+.ffo {
+    max-width: 35%;
+    height: 3.5rem;
+  
+}
+
+.cardd {
+    border-radius: 13px;
+    transition: 2s;
+    
+}
+
+
+
+.foott {
+    background-color: #3f1775;
+}
+
+.footer>ul>a {
+    list-style-type: none;
+}
+
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+@media(min-width: 768px) {
+    .input-spacc {
+        width: 60%
+    }
+}
+
+@media(max-width: 768px) {
+    .input-sp {
+
+        align-content: center;
+
+
+    }
+}
+
+@media(max-width: 768px) {
+    .btt button {
+
+        display: ;
+
+
+    }
+}
+
+
+@media screen and (max-width:560px) {
+    .font-hab {
+        font-size: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width:561px)and (max-width:960px) {
+    .font-hab {
+        font-size: 2.5rem;
+    }
+}
+
+

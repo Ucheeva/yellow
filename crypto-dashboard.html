@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto+Slab:wght@100;200;300;400&family=Ysabeau+Infant:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Ysabeau Infant', sans-serif !important;
+
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .nav-bgg {
+            background-color: rgba(53, 20, 96, 0.942);
+            color: white;
+        }
+
+        .active {
+      color: yellow !important;
+    }
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bgg">
+        <div class="container">
+            <div class="d-flex ">
+                <a class="navbar-brand" href="./dashboard.html"><img src="./omo2.svg" class="w-50" alt=""></a>
+                <p style="font-size: small;" class="fw-bold pt-3">BTC/NGN NGN 23,902,589.33</p>
+            </div>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-bold">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./dashboard.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./wallets-dasboard.html">Wallets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Crypto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./all-investment.html">All investment</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Referrals</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--------------------------------------------end of navbar-------------------------------------------->
+
+    <section style=" pb-4">
+        <div class="container">
+            <div class="d-flex justify-content-between pt-4">
+                <p class="fs-3 fw-bold">Featured</p>
+                <i class=" fs-2 fa-solid fa-toggle-on" style="color: black;"></i>
+            </div>
+            <div class="row">
+                <div class="w-50">
+                    <div class="item text-sm-start">
+                        <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+                            <img src="./slider img3.svg" class="w-25 pb-3" alt="">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="fw-bolder fs-4">Etherium </h3>
+                                <p class="text-info fs-4">ETH</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3 class="fw-bold fs-5">NGN 1,541,334.24 </h3>
+                                <p class="text-success fs-4">+1.14%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-50">
+                    <div class="item text-sm-start">
+                        <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+                            <img src="./slider img8.svg" class="w-25 pb-3" alt="">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="fw-bolder fs-4">Bitcoin </h3>
+                                <p class="text-info fs-4">BTC</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h3 class="fw-bold fs-5">NGN 1,541,334.24 </h3>
+                                <p class="text-success fs-4">+1.01%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------>
+        
+        <div class="container-fluid p-5 ">
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img1.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">USD Coin</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">USDC</p>
+                </div>
+                <div >
+                    <p class="">
+                        <span class="fw-bold fs-5">NGN 815.92</span> <br>
+                        <p class="text-danger fw-bold fs-6 text-sm-end">-0.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img2.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Solana</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">SOL</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 18,000.96</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+0.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img3.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Etherium</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">ETH</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 1,541,334.24</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.702%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img4.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">USDT</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">USDT</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 816</span> <br>
+                        <p class="text-danger fw-bold fs-6 text-sm-end">-0.52%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img5.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">USD Coin</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">USDC</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 813.92</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img6.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Celo Dollar</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">CUSD</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 813.92</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img2.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Matic</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">MATIC</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 601.34</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">-1.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img8.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Cardano</span>
+                       
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">ADA</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 313.92</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img8.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Bitcoin</span>
+                        
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">BTC</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 25,048,988.64</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.002%</p>
+                    </p>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between pb-3">
+                <div>
+                    <div class="d-flex gap-1">
+                        <img src="./slider img9.svg" width="40rem" alt=""> <br>
+                        <span class=" fs-5 fw-bold">Cardano</span>
+                        NGN 25,048,988.64
+                    </div>
+                    <p style="font-size: small;" class="text-secondary fw-bold ms-5">ADA</p>
+                </div>
+                <div>
+                    <p>
+                        <span class="fw-bold fs-5">NGN 313.92</span> <br>
+                        <p class="text-success fw-bold fs-6 text-sm-end">+1.002%</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 pt-4 bg-dark text-light">
+        <div style="font-size: small;" class="justify-content-between d-flex">
+            <div class="d-flex gap-4 ps-3">
+                <p>Change Language</p>
+                <p>About Us </p>
+                <p>FAQ</p>
+                <p>User Agreement</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="d-flex gap-4 pe-3">
+                <p>@ 2023 Yellow card</p>
+                <button class="bg-warning px-2 border-0">Need help</button>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

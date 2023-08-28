@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .bt {
+            background-color: rgba(255, 225, 0, 0.79);
+            width: 300px;
+            height: 30px;
+            border-radius: 7px;
+            color: rgb(4, 4, 4);
+            transition: 1s;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 1rem;
+            padding-bottom: 2.2rem;
+            font-size: large;
+            border: none;
+            outline: none;
+        }
+
+        .bt:hover {
+            color: white;
+            background-color: black
+        }
+
+
+        .btt {
+            background-color: transparent;
+            border: 1.5px solid;
+            width: 300px;
+            height: 30px;
+            border-color: rgb(255, 213, 0);
+            border-radius: 7px;
+            color: rgb(4, 4, 4);
+            transition: 1s;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            padding-top: 1rem;
+            padding-bottom: 2.2rem;
+            font-size: large;
+            outline: none;
+        }
+
+        .btt:hover {
+            color: white;
+            background-color: rgba(255, 225, 0, 0.79);
+            border: none;
+
+
+
+        }
+
+
+        .bd {
+            background-color: white
+        }
+
+
+
+        .log {
+            padding-top: 20px;
+
+        }
+
+        .email {
+            width: 290px;
+            height: 40px;
+            outline: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1.5px solid black;
+            transition: 0.5s;
+            font-size: large;
+
+        }
+
+        .email:hover {
+            width: 300px;
+            border-bottom: 2px solid black;
+
+
+        }
+
+        .pass {
+            outline: none;
+            width: 290px;
+            height: 40px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom: 1.5px solid black;
+            transition: 0.5s;
+            font-size: large;
+
+        }
+
+        a {
+            color: rgb(255, 191, 0);
+        }
+
+        .pass:hover {
+            width: 300px;
+            border-bottom: 2px solid black;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+        .bdd {
+            margin-top: -2rem;
+        }
+
+        .fl {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 9rem;
+
+        }
+
+        .dd {
+            width: 23rem;
+            height: 35rem;
+            background-color: rgba(255, 191, 0, 0.685);
+            border-radius: 15px
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div class="mt-5">
+            <a href="./index.html"> <button style="border-radius: 30px;"
+                    class="btn btn-dark py-3 px-5 fw-bold fs-6 ">back to Yellow card</button></a>
+        </div>
+    </center>
+    <div class="container-fluid">
+
+        <div>
+            <div class="fl">
+                <div class="container">
+
+
+                    <div class="row">
+
+
+                        <div class="col-12 col-md-6 ">
+                            <div class="dd container">
+                                <img src="./login-img.svg" style="padding-top: 5rem;" alt="">
+                                <div style="display: flex; gap: 10px;">
+                                    <img src="./YELLOWCARD3 QR.svg" style="padding-left: 17px;" width="180rem" alt="">
+                                    <p
+                                        style="font-weight: bold; font-size:medium; padding-right: 2rem; text-align: left;">
+                                        Scan the
+                                        QR code to download Yellow Card App
+                                        <br><br> <span style="font-size: smaller; font-weight: lighter;"> Available
+                                            in iOS and
+                                            Andriod</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6">
+                            <div style=" min-height: 20rem; box-shadow: 0px 0px 8px 0px black; min-width: 26rem; padding-bottom: 3rem; border-radius: 10px;"
+                                class="bd container">
+                                <h1 class="log">Login</h1> <br><br>
+                                <div class="bdd">
+                                    <input type="email" placeholder="Enter your email / PhoneNumber" class="email">
+                                    <br><br>
+                                    <input type="password" placeholder="Enter your password" class="pass">
+                                    <br><br><br>
+                                    <a href="./dashboard.html"> <button class="bt">Login</button> </a>
+                                    <P style="margin-bottom: 5px;">Or</P>
+                                    <button class="btt">Create an Account</button> <br> <br>
+                                    <a href="">forgot your password?</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

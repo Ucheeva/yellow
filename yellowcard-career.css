@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;1,200&family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+    font-family: 'Ysabeau Infant', sans-serif !important;
+}
+
+
+.contt{
+   min-width: 90%;
+   height: 17rem;
+   background-color: rgba(128, 128, 128, 0.154);
+   border-bottom: solid purple 4px;
+   margin-top: -2rem;
+   
+}
+
+.contt2{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(128, 128, 128, 0.28);
+    max-width: 100%;
+}
+
+.linee{
+    margin-top: 3.8rem;
+    min-width: 100%;
+    height: 4px;
+    background-color: rgb(117, 11, 103);
+}

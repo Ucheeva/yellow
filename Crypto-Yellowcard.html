@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./Crypto-Yellowcard.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg py-3 navbar-light bg-light fixed-top">
+    <div class="container-fluid animate__animated animate__fadeInDown animated__delay-1s">
+      <a href="./index.html" class=" navbar-brand"><img src="./yellowcard-logo.f231780.png" style="margin-left: 1rem;"
+          width="150rem" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link navv1 me-2 text-dark fw-bold dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./yellowcard-career.html">Carrers</a></li>
+              <li><a class="dropdown-item" href="./press-yellowcard.html">Press</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link navv1 me-2 text-dark input-sp fw-bold dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./Crypto-Yellowcard.html">Crypto</a></li>
+              <li><a class="dropdown-item" href="./yellow-pay.html">Yellow Pay</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://academy.yellowcard.io/">Academy</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link navv1 me-2 text-dark input-sp fw-bold dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="./OTC.html">OTC</a></li>
+              <li><a class="dropdown-item" href="./payments-API.html">Payment API</a></li>
+              <li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#help center" class="nav-link navv1 me-2 text-dark fw-bold">Help Center</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link navv1 me-2 text-dark input-sp fw-bold dropdown-toggle" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              English
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Francais</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navv1 me-2 text-dark fw-bold" href="./login.html">Login</a>
+          </li>
+
+
+
+        </ul>
+        <a href="./sign-up.html"><button style=" margin-right: 1rem; border-radius: 10px; height:3.3rem ;"
+            class=" btn55 btn btn-dark py-3 px-5 p-4 "> Sign Up </button></a>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------end of navbar--------------------------------------------------->
+
+  <section class="fff text-dark text-sm-start pt-5 pb-5">
+    <div class="container">
+      <div class=" pt-5 row d-md-6 align-items-center justify-content-between d-md-fit-content">
+        <div class="col-12 col-lg-7 col-sm-12 col-md-12 input-sp">
+          <h1 style="color: rgba(69, 12, 113, 0.829);" class="display-5 pt-5 fw-bold">
+            Trade crypto like a pro
+          </h1>
+          <br>
+          <p class="pp pb-2">Buy, sell, send and receive BTC, USDT, ETH and much more. Join the money movement
+            today.</p>
+          <button class="btn btn-dark ms-auto py-3 px-5 p-4 btt "> Get Started with Crypto</button>
+        </div>
+        <div class=" col-12 col-lg-5 col-md-12 pb-5"><img class="img-fluid" src="./images/crypto1.webp" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------end of sec1------------------------------------------------>
+
+  <section class=" text-dark secc text-sm-start pt-5  ppg">
+    <div class="container ">
+      <div class="row pb-5 mt-4 g-5 d-md-6 align-items-center justify-content-between d-md-fit-content">
+        <div class="col-12 col-lg-5 col-sm-12 col-md-12 pt-2">
+          <img src="./images/crypto2.webp" class="img-fluid" alt="">
+        </div>
+        <div class="col-12 col-lg-7 col-md-12 text-start-sm">
+          <h2 class="font-hab pb-4  fw-bold">
+            Get started in 3 easy steps
+          </h2>
+          <div class="d-flex ">
+            <div class="display-6 fw-bolder text-success ">01</div>
+            <div class="ps-4">
+              <span class="fw-bolder fs-4">Create an account</span>
+              <p class="fs-6 ">Sign up for a free account with your name, email and phone number</p>
+            </div>
+          </div>
+
+          <div class="d-flex ">
+            <div class="display-6 fw-bolder text-success ">02</div>
+            <div class="ps-4">
+              <span class="fw-bolder fs-4">Fund your account</span>
+              <p class="fs-6 ">Choose your preferred payment method (bank transfer, mobile money) to deposit money into
+                your account</p>
+            </div>
+          </div>
+
+          <div class="d-flex ">
+            <div class="display-6 fw-bolder text-success ">03</div>
+            <div class="ps-4">
+              <span class="fw-bolder fs-4">Start trading Crypto</span>
+              <p class="fs-6 ">Start buying or receiving the most popular cryptocurrencies on the market into your
+                wallet</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="p-3 pt-5 pb-5 ">
+        <div class="container dde gap-5 d-flex p-3 ">
+          <img src="./YELLOWCARD3 QR.svg" style="width: 7rem; height: 7rem;" alt="">
+          <p class="fs-5 fw-semi-bold mt-4">
+            Scan this QR code to download the Yellow Card App
+            <br>
+            Available in IOS and Andriod
+
+          </p>
+
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------end of get started------------------------------------------->
+
+  <section class=" bg-gree pt-5 pb-5">
+    <div class="container ">
+      <div class=" text-center">
+        <div class="pb-4">
+          <h1 class="fw-bolder display-5 ">
+            Trade multiple coins on Yellow Card
+          </h1>
+          <p class="fs-5 fw-semi-bold">
+            Get the most popular cryptocurrencies and easily convert one coin for another
+          </p>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img1.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">USD Coin <span style="color: rgba(162, 161, 161, 0.747);">(USDC)</span> </h3>
+            <p>$1.00 <span class="text-info"> +0%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img2.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Solana <span style="color: rgba(162, 161, 161, 0.747);">(SOL) </span> </h3>
+            <p>$19.27 <span class="text-info"> +1.74%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img3.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Ethereum <span style="color: rgba(162, 161, 161, 0.747);">(ETH)</span> </h3>
+            <p>$1,964.86 <span class="text-info"> +2.56%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img4.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">USDT <span style="color: rgba(162, 161, 161, 0.747);">(USDT)</span> </h3>
+            <p>$1.00<span class="text-info"> +0%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img5.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Celo Dollar <span
+                style="color: rgba(162, 161, 161, 0.747); font-size: small;">(CUSD)</span> </h3>
+            <p>$1.00<span class="text-info"> +1.59%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img6.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6"> Matic <span style="color: rgba(162, 161, 161, 0.747);">(MATIC)</span> </h3>
+            <p>$0.69 <span class="text-info"> +2.65%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img7.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Cardano <span style="color: rgba(162, 161, 161, 0.747);">(ADA)</span> </h3>
+            <p>$0.29<span class="text-info"> +1.39%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img8.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Bitcoin <span style="color: rgba(162, 161, 161, 0.747);">(BTC)</span> </h3>
+            <p>$30,844.24<span class="text-info"> +0.43%</span></p>
+          </div>
+        </div>
+
+        <div class="item text-sm-start">
+          <div style="border-radius: 10px;" class="bg-light px-4 p-3 shadow-lg">
+            <img src="./slider img9.svg" class="w-50 pb-3" alt="">
+            <h3 class="fw-bolder fs-6">Gold Tether <span
+                style="color: rgba(162, 161, 161, 0.747); font-size: small;">(XAUT)</span> </h3>
+            <p>$1,922.30<span class="text-info"> +0.08%</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pb-5 pt-4">
+        <button style="padding-left: 7rem; padding-right: 7rem;" class="btn btn-lg btn-dark py-3 ">Start
+          trading</button>
+      </div>
+    </div>
+  </section>
+
+  <!----------------------------------------enf ------------------------------------------->
+
+  <section class="pb-5">
+    <div class="container">
+      <div class=" pb-3 text-start-sm">
+        <div class="pb-4 pt-5">
+          <div>
+            <h1 class="fw-bolder text-center display-5 ">
+              Why trade crypto with Yellow Card?
+            </h1>
+          </div>
+        </div>
+        <div class="row g-5 p-3">
+          <div class="col-md-12 col-lg-4">
+            <img src="./small yelleo.svg" class="pt-2 pb-3" alt="">
+            <h3 class="fw-bolder pb-3">We're simpler</h3>
+            <p class="fw-medium">Our easy-to-use platform makes it simple to trade, monitor and manage your crypto.</p>
+
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <img src="./small yelleo.svg" class="pt-2 pb-3" alt="">
+            <h3 class="fw-bolder pb-3">We're Cheaper</h3>
+            <p class="fw-medium">Trade crypto with us and enjoy some of the lowest rates in the industry.</p>
+
+          </div>
+
+          <div class="col-md-12 col-lg-4">
+            <img src="./small yelleo.svg" class="pt-2 pb-3" alt="">
+            <h3 class="fw-bolder pb-3">We're Safer</h3>
+            <p class="fw-medium">Stream-lined security with multi-signature wallets and best-of-breed security controls.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+
+      <center><button style="padding-left: 7rem; padding-right: 7rem; border-radius: 12px;"
+          class="btn btn-dark ms-auto d-sm-12 py-3 "> Get Started</button></center>
+    </div>
+  </section>
+
+
+  <!--------------------------------------------------END OF CAROUSEL-------------------------------------------------->
+
+  <section class=" text-sm-start pt-5 pb-5">
+    <div class="container">
+      <div class=" row d-md-6 align-items-center justify-content-between d-md-fit-content">
+        <div class="col-12 col-lg-6 col-sm-12 col-md-12 g-4 pt-5 ">
+          <h1 class="fs-2 fw-bolder">
+            The best trading experience at your fingertips
+          </h1>
+          <br>
+          <div class="d-flex gap-3 ">
+            <div class="fs-2 fw-bolder text-success"><i class="fa-solid fa-circle-check"></i></div>
+            <p class=" pb-3 fs-5"> Access the most popular cryptocurrencies in the market on one app</p>
+          </div>
+          <div class="d-flex gap-3 ">
+            <div class="fs-2 fw-bolder text-success "><i class="fa-solid fa-circle-check"></i></div>
+            <p class=" pb-3 fs-5">Interact with easy charts to view price changes over time</p>
+          </div>
+
+          <div class="d-flex gap-3 ">
+            <div class="fs-2 fw-bolder text-success "><i class="fa-solid fa-circle-check"></i></div>
+            <p class=" pb-3 fs-5">Easily view the coin value in USD or your local currency</p>
+          </div>
+
+          <div class="d-flex gap-3 ">
+            <div class="fs-2 fw-bolder text-success "><i class="fa-solid fa-circle-check"></i></div>
+            <p class=" pb-3 fs-5">Track trends and performance in real-time with up-to-date market statistics</p>
+          </div>
+
+
+
+
+
+        </div>
+        <div class="col-12 col-lg-6 col-md-12"><img class="img-fluid " src="./images/crypto3.webp" alt=""></div>
+      </div>
+
+    </div>
+
+  </section>
+  <!------------------------------------------------------end---------------------------------------------------->
+  <section>
+
+    <div class="container pb-5 mt-5">
+      <div class="h3 text-muted">My Favorite</div>
+      <div id="starred" class="bg-white px-2 pt-1 mt-2">
+        <div class="table-responsive">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex mt-2 border-right">
+                    <div class="box p-2 rounded">
+                      <span class="fas fa-star text-primary px-1"></span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Name</div>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img src="https://www.freepnglogos.com/uploads/bitcoin-png/bitcoin-all-about-bitcoins-9.png"
+                          alt="" class="icons">
+                      </div>
+                      <b class="pl-2">Bitcoin</b>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Market cap</div>
+                    <div><b>$146,169,768.00</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Price</div>
+                    <div><b>$8,536.79</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Volume</div>
+                      <div class="green-label mx-1 px-1 rounded">74</div>
+                    </div>
+                    <div><b>$7,576,878.89</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Change</div>
+                      <div class="orange-label mx-1 px-1 rounded">20%</div>
+                    </div>
+                    <div><b class="red">-1.22%</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="graph">
+                    <img
+                      src="https://freepngimg.com/thumb/stock_market/25650-5-stock-market-graph-up-transparent-background.png"
+                      alt="">
+                    <div class="dot"></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="d-lg-flex align-items-lg-center py-4">
+        <div class="h3 text-muted">Top Cryptocurrency Prices</div>
+        <div class="ml-auto">
+          <select name="industry" id="industry" class="mx-lg-3 mr-md-4">
+            <option value="" hidden selected>Choose Industry</option>
+            <option value="dark">Dark Net</option>
+          </select>
+          <select name="plat" id="plat">
+            <option value="" hidden selected>Choose Platform</option>
+            <option value="darkweb">Dark Web</option>
+          </select>
+        </div>
+      </div>
+      <div id="top">
+        <div class="bg-white table-responsive">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td>
+                  <div class="d-flex mt-2 border-right">
+                    <div class="box p-2 rounded">
+                      <span class="text-primary px-2 font-weight-bold">01</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Name</div>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img
+                          src="https://freepngimg.com/thumb/bitcoin/59703-classic-bitcoin-virtual-cryptocurrency-currency-ethereum.png"
+                          alt="" class="icons">
+                      </div>
+                      <b class="pl-2">Ethereum</b>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Market cap</div>
+                    <div><b>$146,169,768.00</b></div>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Price</div>
+                    <div><b>$8,536.79</b></div>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Volume</div>
+                      <div class="green-label mx-1 px-1 rounded">74</div>
+                    </div>
+                    <div><b>$7,576,878.89</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Change</div>
+                      <div class="orange-label mx-1 px-1 rounded">20%</div>
+                    </div>
+                    <div><b class="red">-0.18%</b></div>
+                  </div>
+                </td>
+                <br><br>
+                <td>
+                  <div class="graph">
+                    <img
+                      src="https://freepngimg.com/thumb/stock_market/25650-5-stock-market-graph-up-transparent-background.png"
+                      alt="" id="ethereum">
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class="d-flex mt-2 border-right">
+                    <div class="box p-2 rounded">
+                      <span class="text-primary px-1 font-weight-bold">02</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Name</div>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img
+                          src="https://freepngimg.com/thumb/bitcoin/59526-cryptocurrency-badge-bitcoin-gold-png-file-hd-thumb.png"
+                          alt="" class="icons">
+                      </div>
+                      <b class="pl-2">Bitcoin cash</b>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Market cap</div>
+                    <div><b>$446,569,768.00</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Price</div>
+                    <div><b>$8,836.79</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Volume</div>
+                      <div class="green-label mx-1 px-1 rounded">74</div>
+                    </div>
+                    <div><b>$7,576,878.89</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Change</div>
+                      <div class="orange-label mx-1 px-1 rounded">20%</div>
+                    </div>
+                    <div><b class="green">+4.00%</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="graph">
+                    <img
+                      src="https://freepngimg.com/thumb/stock_market/25650-5-stock-market-graph-up-transparent-background.png"
+                      alt="">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex mt-2 border-right">
+                    <div class="box p-2 rounded">
+                      <span class="text-primary px-1 font-weight-bold">03</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Name</div>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img
+                          src="https://freepngimg.com/thumb/bitcoin/59549-cryptocurrency-money-bitcoin-gold-cash-free-photo-png-thumb.png"
+                          alt="" class="icons">
+                      </div>
+                      <b class="pl-2">Ripple</b>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Market cap</div>
+                    <div><b>$56,169,768.00</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Price</div>
+                    <div><b>$5,536.79</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Volume</div>
+                      <div class="green-label mx-1 px-1 rounded">74</div>
+                    </div>
+                    <div><b>$17,576,878.89</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Change</div>
+                      <div class="orange-label mx-1 px-1 rounded">20%</div>
+                    </div>
+                    <div><b class="green">+1.71%</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="graph">
+                    <img
+                      src="https://freepngimg.com/thumb/stock_market/25650-5-stock-market-graph-up-transparent-background.png"
+                      alt="" id="ripple">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex mt-2 border-right">
+                    <div class="box p-2 rounded">
+                      <span class="text-primary px-1 font-weight-bold">04</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Name</div>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img
+                          src="https://freepngimg.com/thumb/bitcoin/59842-cryptocurrency-bitfinex-bitcoin-exchange-png-download-free-thumb.png"
+                          alt="" class="icons">
+                      </div>
+                      <b class="pl-2">EOS</b>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Market cap</div>
+                    <div><b>$12,169,768.00</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="text-muted">Price</div>
+                    <div><b>$14.79</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Volume</div>
+                      <div class="green-label mx-1 px-1 rounded">74</div>
+                    </div>
+                    <div><b>$76,878.89</b></div>
+                  </div>
+                </td>
+                <td>
+                  <div class="d-flex flex-column">
+                    <div class="d-flex align-items-center labels">
+                      <div class="text-muted">Change</div>
+                      <div class="orange-label mx-1 px-1 rounded">20%</div>
+                    </div>
+                    <div><b class="red">-5.86%</b></div>
+                  </div>
+                </td>
+
+                <td>
+                  <div class="graph">
+                    <img
+                      src="https://freepngimg.com/thumb/stock_market/25650-5-stock-market-graph-up-transparent-background.png"
+                      alt="" id="eos">
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center pt-5 py-2">
+        <center><button style="padding-left: 7rem; padding-right: 7rem; border-radius: 12px;"
+            class="btn btn-dark ms-auto d-sm-12 py-3 "> See More coins</button></center>
+      </div>
+    </div>
+  </section>
+  <!---------------------------------------------end of bitcoin----------------------------------------------------->
+
+
+  <section id="questions" class="p-5 fff pb-5">
+    <div class="container">
+      <h2 class="text-center fw-bold fs-1 mb-5">
+        Frequently asked questions
+      </h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <span class="fw-bolder fs-5 p-2 text-dark">What is Yellow Card?</span>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              Yellow Card is a cryptocurrency exchange that offers the safest way to buy and sell bitcoin and also send,
+              receive and store your crypto with your bitcoin wallet on Yellow Card
+            </div>
+          </div>
+        </div>
+        <!---------------------item1------------------->
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <span class="fw-bolder fs-5 p-2 text-dark"> How do I get a Yellow Card account?</span>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              To open a Yellow Card account simply visit our <strong> web app</strong>
+            </div>
+          </div>
+        </div>
+        <!---------------------item1------------------->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="fw-bolder fs-5 p-2 text-dark">What is Bitcoin?</span>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              Bitcoin is the world's foremost cryptocurrency. It is a method of sending and receiving money quickly with
+              cheaper transaction fees and is also a digital asset. Learn more about Bitcoin
+            </div>
+          </div>
+        </div>
+        <!-------------------------------------------end -------------------------------------->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="fw-bolder fs-5 p-2 text-dark">How do I buy cryptocurrency?</span>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body fs-5">
+              To buy cryptocurrency on Yellow Card, simply fund your wallet with your local currency using your
+              preferred payment method; enter the amount of crypto you want to buy, and; confirm the transaction. That's
+              it!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </section>
+
+
+
+  <!---------------------------------------------------end ---------------------------------------------------->
+
+  <footer class=" foott text-warning">
+    <div class="container py-5">
+      <div class="row py-3 ">
+
+        <div class=" col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-light">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="text-light">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Stories</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Press</a></li>
+          </ul>
+        </div>
+
+        <div class=" col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Help</h6>
+          <ul class="list-unstyled mb-0 ">
+            <li class="mb-2"><a class="text-light" href="#">Payments</a></li>
+            <li class="mb-2"><a class="text-light" href="#">Shipping</a></li>
+            <li class="mb-2"><a class="text-light" href="#">Cancellation</a></li>
+            <li class="mb-2"><a class="text-light" href="#">Returns</a></li>
+          </ul>
+        </div>
+
+        <div class=" col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Policy</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-light">Return Policy</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Terms Of Use</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Security</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Privacy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-light">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Sitemap</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Our Products</a></li>
+          </ul>
+        </div>
+
+        <div class=" col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-light">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="text-light">About Us</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Stories</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Press</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-2 col-xl-4 col-xxl-4 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-light">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Register</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Sitemap</a></li>
+            <li class="mb-2"><a href="#" class="text-light">Our Products</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr class="p-0 m-0 b-0">
+
+
+    <div class=" py-2">
+      <div class="container ">
+        <center>
+          <p class="text-muted bg-light mb-0  py-2">&copy; 2019 Yellow Card All risghts reserved.</p>
+        </center>
+
+
+        <div class="text-light foott pt-5">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-lg-3 align-item-sm-center">
+              <img src="./yellowcard-logo.f231780.png" style="width: 12rem;" alt=""> <br> <br>
+              <p class="mb-lg-5">hello@yellowcard.io <br><br>
+                © 2023. Yellow Card Inc.
+              </p>
+              <button class="border-2 border-light text-light btn-lg foott mb-5">GB English</button>
+            </div>
+            <div class=" col-12  col-lg-9">
+              <p class="fs-5">
+                Yellow Card is the largest cryptocurrency exchange on the African continent. Operating across 16
+                countries, Yellow Card is a financial services company that offers a crypto exchange, easy cross-border
+                payments powered by crypto, and an API suite for companies to on-and-off-ramp anyone on the continent
+                and abroad.
+                <br>
+                In 2022, Yellow Card announced its Series B fundraise of $40M, bringing total funds raised to $57M—the
+                most capital raised by any African cryptocurrency company
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

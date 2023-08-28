@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto+Slab:wght@100;200;300;400&family=Ysabeau+Infant:wght@300;400;500;600;700&display=swap');
+   
+a{
+  text-decoration: none;
+}
+
+    body {
+      font-family: 'Ysabeau Infant', sans-serif;
+
+    }
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .nav-bgg {
+      background-color: rgba(53, 20, 96, 0.942) !important;
+      color: white;
+    }
+
+    .active{
+            color: yellow !important;
+        }
+
+        .banimate{
+          background-color: transparent;
+          /* width: 10px; */
+          transition: background-color 2s, width 2s;
+        }
+
+
+      .banimate:hover{
+          background-color: rgb(152, 42, 152);
+          border-radius: 10px;
+          width: fit-content;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark nav-bgg">
+    <div class="container">
+      <div class="d-flex n ">
+        <a class="navbar-brand" href="#"><img src="./omo2.svg" class="w-50 " alt=""></a>
+         <p style="font-size: small;" class="fw-bold pt-3">BTC/NGN NGN 23,902,589.33</p>
+       
+      </div>
+       
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fw-bold">
+          <li class="nav-item banimate">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  aa" aria-current="page" href="./wallets-dasboard.html">Wallets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  aa" aria-current="page" href="./crypto-dashboard.html">Crypto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  aa" aria-current="page" href="./all-investment.html">All investments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  aa" aria-current="page" href="#">Referrals</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-----------------------------------------end of navbar-------------------------------------->
+
+  <section class="p-3 ">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between pt-4 pb-4">
+        <div>
+          <span style="font-size: small;" class="text-secondary fw-bold">Combined total</span>
+            <h1 style="color: rgba(70, 26, 127, 0.942);" class="fs-2 fw-bolder">$50,400,000</h1>
+        </div>
+        <div class="ms-auto px-3">
+          <a href="./deposit.html">
+          <button style="border-radius: 10px;" class="btn btn-dark py-3 px-5">Deposit</button>
+        </a>
+        </div>
+        <div>
+          <button style="border-radius: 10px;" class="btn btn-outline-dark py-3 px-5">Buy/Sell</button>
+        </div>
+      </div>
+
+      <div class="section ">
+        <div style="" class="card ">
+
+          <div class="card-body">
+
+            <div class=" d-flex">
+              <div style="width: fit-content;" class="">
+                <p class="fw-bold fs-6 ms-2">60%</p>
+                <img src="../chart - Copy.png" class="w-25" alt="">
+              </div>
+              <div style="margin-right: 2rem;" class="me-auto">
+                <p class="fs-5 fw-bold">Start your crypto journey</p>
+                <p>Deposit funds into your Yellow Card wallet to buy crypto</p>
+              </div>
+              <a class="ms-auto" href="./sign-up.html"> <i class="fa-solid fa-arrow-right text-dark mt-4 pe-3"> </i>
+              </a>
+            </div> 
+
+          </div>
+        </div>
+  </section>
+  <!-------------------------------------------end------------------------------------------->
+
+  <section class="p-4">
+    <div class="container-fluid pb-4">
+      <div class="row  gap-3">
+        <div style="border-radius: 17px; background-color: rgba(190, 133, 225, 0.39);" class="col py-4 ps-4"><img
+            src="./dash1.svg"3 alt="">
+          <p class="fw-bold fs-4">Buy Cryptocurrency</p>
+        </div>
+        <div style="border-radius: 17px; background-color: rgba(249, 221, 130, 0.438);" class="col py-4 ps-4"><img
+            src="./dash2.svg" alt="">
+          <p class="fw-bold fs-4">Sell cryptocurrency</p>
+        </div>
+        <div style="border-radius: 17px; background-color: rgba(136, 193, 240, 0.241);" class="col py-4 ps-4"><img
+            src="./dash3.svg" alt="">
+          <p class="fw-bold fs-4">Discover new coins </p>
+        </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between">
+      <p class="fs-4 fw-bolder">My Wallet</p>
+     <a href="./wallets-dasboard.html"><p class="text-success fs-5 fw-bold">See more</p>
+    </a>  
+    </div>
+  </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+crossorigin="anonymous"></script>
+</body>
+
+</html>

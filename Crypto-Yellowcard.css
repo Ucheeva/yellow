@@ -1,0 +1,268 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;1,100;1,900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto+Slab:wght@100;200;300;400&family=Ysabeau+Infant:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.navv1:hover {
+    color: rgba(5, 176, 5, 0.596) !important;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.fff{
+    background-color: rgba(251, 251, 120, 0.301);
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Ysabeau Infant', sans-serif !important;
+}
+
+.pp {
+    font-size: larger;
+}
+
+.btt{
+    border-radius: 10px;
+    width: 22rem;
+}
+
+.ppg{
+    background-color:  rgba(249, 249, 52, 0.148);
+   
+}
+
+.ww{
+    width: 60%;
+    margin-left: 10rem;
+}
+
+.dde{
+   background-color: rgba(164, 196, 247, 0.376);
+   width: fit-content;
+   border-radius: 15px;
+}
+
+.bg-gree{
+    background-color: rgba(138, 183, 254, 0.295);
+}
+
+
+
+
+body{
+    background-color: #f3f3f3;
+}
+#starred{
+    box-shadow: 3px 3px 10px #b5b5b5;
+}
+.table div.text-muted{
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+.icons{
+    object-fit: contain;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.graph img{
+    object-fit: contain;
+    width: 40px;
+    height: 50px;
+    transform: scale(2) rotateY(45deg);
+}
+.graph .dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    background-color: blue;
+    box-shadow: 1px 1px 1px #a5a5a5;
+    top: 25px;
+}
+.graph .dot:after{
+    background-color: #fff;
+    content: '$9,999.00';
+    font-weight: 600;
+    font-size: 0.7rem;
+    position: absolute;
+    top: -25px;
+    left: -20px;
+    box-shadow: 1px 1px 2px #a5a5a5;
+    border-radius: 2px;
+}
+.font-weight-bold{
+    font-size: 1.3rem;
+    
+}
+#ethereum{
+    transform: scale(2) rotateY(45deg) rotateX(180deg);
+}
+#ripple{
+    transform: scale(2) rotateY(10deg) rotateX(20deg);
+}
+#eos{
+    transform: scale(2) rotateY(50deg) rotateX(190deg);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.foott {
+    background-color: #3f1775;
+}
+
+/* utility classes */
+.table tr td{
+    border: none;
+}
+.red{
+    color: #ff2f2f;
+    font-weight: 700;
+}
+.green{
+    color: #1cbb1c;
+    font-weight: 700;
+}
+.labels,.graph{
+    position: relative;
+}
+.green-label{
+    background-color: #00b300;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.orange-label{
+    background-color: #ffa500;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.7rem;
+}
+.border-right{
+    transform: scale(0.6);
+    border-right: 1px solid black!important;
+}
+.box{
+    transform: scale(1.5);
+    background-color: #dbe2ff;
+}
+#top .table tbody tr{
+    border-bottom: 1px solid #ddd;
+}
+#top .table tbody tr:last-child{
+    border: none;
+}
+select{
+    background-color: inherit;
+    padding: 8px;
+    border-radius: 5px;
+    color: #444;
+    border: 1px solid #444;
+    outline-color: #00f;
+}
+.text-white{
+    background-color: rgb(43, 159, 226);
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 2px 3px;
+}
+a:hover{
+    text-decoration: none;
+}
+a:hover .text-white{
+    background-color: rgb(20, 92, 187);
+}
+
+/* Scrollbars */
+::-webkit-scrollbar{
+    width: 10px;
+    height: 4px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,#999,#777);
+    border-radius: 10px;
+    
+}
+
+/* media Queries */
+@media(max-width:379px){
+    .d-lg-flex .h3{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:352px){
+    #plat{
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
